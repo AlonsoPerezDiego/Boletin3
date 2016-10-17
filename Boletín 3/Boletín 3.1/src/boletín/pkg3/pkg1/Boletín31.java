@@ -31,14 +31,15 @@ public class Boletín31 {
         
         Consumo centralita2 = new Consumo();
         
+        
         centralita2.setKm(Float.parseFloat(JOptionPane.showInputDialog("Los kilometros recorridos son:")));
-        centralita1.setT(Float.parseFloat(JOptionPane.showInputDialog("Las horas de viaje son:")), Float.parseFloat(JOptionPane.showInputDialog("Los minutos de viaje son:")), Float.parseFloat(JOptionPane.showInputDialog("Los segundos de viaje son:")));
-        centralita1.setpGas((float)1.49);
-        centralita1.setLitros(49);
-        centralita1.setlTotales(65);
-        centralita1.setCons();
-        centralita1.setvMed();
-        centralita1.mostrar();
+        centralita2.setT(Float.parseFloat(JOptionPane.showInputDialog("Las horas de viaje son:")), Float.parseFloat(JOptionPane.showInputDialog("Los minutos de viaje son:")), Float.parseFloat(JOptionPane.showInputDialog("Los segundos de viaje son:")));
+        centralita2.setpGas((float)1.49);
+        centralita2.setLitros(49);
+        centralita2.setlTotales(65);
+        centralita2.setCons();
+        centralita2.setvMed();
+        centralita2.mostrar();
         
     }
     
