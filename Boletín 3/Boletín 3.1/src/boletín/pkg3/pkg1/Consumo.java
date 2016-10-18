@@ -26,10 +26,6 @@ public class Consumo {
         cons = consumo;
         lTotales = lT;
     }
-
-    public float getKm() {
-        return km;
-    }
     
     public void setKm(float kilometros) {
         km = kilometros;
@@ -42,41 +38,21 @@ public class Consumo {
     public void setT(float tiempoH, float tiempoM, float tiempoS) {
         t = tiempoH + tiempoM/60 + tiempoS/3600;
     }
-        
-    public float getLitros() {
-        return litros;
-    }
 
     public void setLitros(float l) {
        litros = l;        
-    }
-
-    public float getvMed() {
-        return vMed;
     }
 
     public void setvMed() {
         vMed = km/t;
     }
 
-    public float getpGas() {
-        return pGas;
-    }
-
     public void setpGas(float price) {
         pGas = price;
     }
 
-    public float getlTotales() {
-        return lTotales;
-    }
-
     public void setlTotales(float lTot) {
         lTotales = lTot;
-    }
-
-    public float getCons() {
-        return cons;
     }
 
     public void setCons() {
