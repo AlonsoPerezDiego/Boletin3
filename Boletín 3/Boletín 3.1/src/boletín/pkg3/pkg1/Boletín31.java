@@ -17,7 +17,7 @@ public class Boletín31 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        //patata
         Consumo centralita1 = new Consumo();
         
         centralita1.setKm(Float.parseFloat(JOptionPane.showInputDialog("Los kilometros recorridos son:")));
