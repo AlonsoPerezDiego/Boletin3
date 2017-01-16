@@ -8,7 +8,7 @@ package src.boletín.pkg3.pkg1;
 /**
  *
  * @author Mario
- */ PATATA2
+ */ //PATATA2
 public class Pataton {
     
 }
